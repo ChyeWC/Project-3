@@ -1,7 +1,7 @@
 # Project-3
 Project 3 submission
 
-Problem Statement
+## Problem Statement
 ----
 Develop a classification model that can distinguish which of two subreddits, ([r/wow](https://www.reddit.com/r/wow) or [r/Overwatch](https://www.reddit.com/r/Overwatch/.json)), a particular post belongs to. Overwatch and World of Warcraft(wow) are two games produced by Blizzard.
 
@@ -12,7 +12,7 @@ The secnd notebook Gridsearch uses gridsearch to get the best parameters.
 
 1 feature (title) from the post is used for the prediction. Count, Hash and Tfidf Vectorizing are used separately to engineer this feature. Logistic Regression, KNN and Multinomial NB models are used in this notebook. 
 
-#### Conclusions and Recommendations
+## Conclusions and Recommendations
 
 The Multinomial Naive Bayes model performed the best. By using gridsearch, it was determined that the best parameters being , alpha= 1 and fit_prior= true. The accuracy score on the training data was 99.2%. The score for the test data is 89.5%. This means our model is probably overfitting on the test data. 
 
