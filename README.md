@@ -2,7 +2,7 @@
 Web APIs & Classification
 
 ## Problem Statement
-----
+
 Develop a classification model that can distinguish which of two subreddits, ([r/wow](https://www.reddit.com/r/wow) or [r/Overwatch](https://www.reddit.com/r/Overwatch/.json)), a particular post belongs to. Overwatch and World of Warcraft(wow) are two games produced by Blizzard.
 
 ## Executive Summary
